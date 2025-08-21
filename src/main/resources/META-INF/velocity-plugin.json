@@ -1,0 +1,8 @@
+{
+  "id": "discordvelocity",
+  "name": "DiscordVelocity",
+  "version": "1.0.0",
+  "authors": ["GitHub Copilot"],
+  "entrypoint": "com.example.discordvelocity.DiscordVelocity",
+  "description": "Sends startup/shutdown/join/leave messages to a Discord channel via bot"
+}

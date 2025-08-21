@@ -1,0 +1,13 @@
+bot:
+  token: "YOUR_BOT_TOKEN_HERE"
+  channel_id: 123456789012345678
+
+messages:
+  startup: "Velocity started. Online players: {velocity_online}"
+  shutdown: "Velocity is shutting down. Online players: {velocity_online}"
+  join: "{player} joined Velocity. Online: {velocity_online}"
+  leave: "{player} left Velocity. Online: {velocity_online}"
+
+# Notes:
+# - Messages are plain text and can include Discord emoji (e.g. :smile:) or markdown like **bold**.
+# - Player underscores are escaped to avoid unintended italics; bold and emoji remain functional.
