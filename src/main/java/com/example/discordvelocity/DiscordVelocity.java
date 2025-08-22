@@ -143,6 +143,10 @@ public class DiscordVelocity {
     }
 
     private void sendConfiguredMessage(String key, Player player) {
+        // Filter: do not send join/leave messages for the user named exactly "Player"
+        if (player != null && "Player".equals(player.getUsername())) {
+            return;
+        }
         String template = null;
         Object msgs = config.get("messages");
         if (msgs instanceof Map) {
